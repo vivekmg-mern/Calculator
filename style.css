@@ -1,0 +1,38 @@
+* {
+    margin: 30px, 60px, 0, 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Display Output div */
+.out {
+    width: 300px;
+}
+/* Display Output */
+.out1 {
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* Calculator Buttons */
+.btns {
+    width: 57px;
+    height: 30px;
+    justify-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+}
+/* For Non digit buttons */
+.btns1 {
+    background-color: orange;
+
+}
+/* For outer div */
+.enclo {
+    background-color: beige;
+    width: 350px;
+    border: solid;
+    border-radius: 10px;
+}

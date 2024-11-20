@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <!-- fontawsome
+      -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="enclo">
+        <!-- Output display -->
+        <div class="out">
+            <input style="text-align: right; font-weight: 600;" class="out1" type="text" id='result' readonly placeholder="0">
+        </div>
+        <!-- Calculator buttons -->
+        <div class="btn">
+            <button onclick="displayContent('7')" class="btns">7</button>
+            <button onclick="displayContent('8')" class="btns">8</button>
+            <button onclick="displayContent('9')" class="btns">9</button>
+            <button onclick="displayContent('+')" class="btns btns1 operator">+</button>
+            <br>
+            <button onclick="displayContent('4')" class="btns">4</button>
+            <button onclick="displayContent('5')" class="btns">5</button>
+            <button onclick="displayContent('6')" class="btns">6</button>
+            <button onclick="displayContent('-')" class="btns btns1 operator">-</button>
+            <br>
+            <button onclick="displayContent('1')" class="btns">1</button>
+            <button onclick="displayContent('2')" class="btns">2</button>
+            <button onclick="displayContent('3')" class="btns">3</button>
+            <button onclick="displayContent('*')" class="btns btns1 operator">*</button>
+            <br>
+            <button onclick="ClearCalcScreen()" class="btns">AC</button>
+            <button onclick="displayContent('0')" class="btns">0</button>
+            <button onclick="displayContent('/')" class="btns">/</button>
+            <button onclick="calcout()" class="btns btns1 operator">=</button>
+            <br>
+            <button onclick="removeCalc()" class="btns "><i class="fa-solid fa-delete-left"></i></i></button>
+        </div><br>
+
+    </div>
+
+
+</body>
+<!-- Script -->
+ <script src="./main.js"></script>
+
+</html>
